@@ -12,28 +12,36 @@ body
 h1
 {
     font-family: $font-header;
-    
-    @include xs-min {
-        margin: (-$gap / 2) 0 ($gap * 3);
+
+    @include xs-min
+    {
         font-size: 3rem;
+
+        margin: (-$gap / 2) 0 ($gap * 3);
     }
-    @include xs {
-        margin: 0 0 ($gap * 2);
+    @include xs
+    {
         font-size: 2rem;
+
+        margin: 0 0 ($gap * 2);
     }
 }
 
 h2
 {
     font-family: $font-header;
-    
-    @include xs-min {
-        margin: ($gap / 4) 0 ($gap * 3);
+
+    @include xs-min
+    {
         font-size: 2.5rem;
+
+        margin: ($gap / 4) 0 ($gap * 3);
     }
-    @include xs {
-        margin: 0 0 ($gap * 2);
+    @include xs
+    {
         font-size: 2rem;
+
+        margin: 0 0 ($gap * 2);
     }
 }
 
@@ -47,7 +55,9 @@ a
     }
 }
 
-section {
+section
+{
     position: relative;
+
     overflow: hidden;
 }

@@ -13,30 +13,33 @@
     background-image: url(../img/header-bg.jpg);
     background-position: center;
     background-size: cover;
-    &__title {
-        display: block;
-    
-        color: $color-accent;
-    
+    &__title
+    {
         font-family: $font-header;
-    
+
+        display: block;
+
+        color: $color-accent;
+
         @extend %text-shadow;
-        @include xs-min {
-          margin-right: -$gap;
-    
-          letter-spacing: 0.33em;
-    
-          font-size: 3.5rem;
+        @include xs-min
+        {
+            font-size: 3.5rem;
+
+            margin-right: -$gap;
+
+            letter-spacing: .33em;
         }
-        @include xs {
-          margin-right: -($gap / 2);
-    
-          letter-spacing: 0.2em;
-    
-          font-size: 2.5rem;
+        @include xs
+        {
+            font-size: 2.5rem;
+
+            margin-right: -($gap / 2);
+
+            letter-spacing: .2em;
         }
-      }
-    
+    }
+
     &__description
     {
         font-size: 1.15rem;
