@@ -64,13 +64,208 @@
 
 <div class="container">
   <div class="row">
-    <main class="main col-lg-9 col-lg-push-3 col-md-8 col-md-push-4">Main
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, quasi quae. Pariatur consectetur veniam exercitationem placeat aut nulla deleniti voluptatem eum nihil. Quia aliquid fuga, maiores odit eum quas animi hic excepturi repellat libero quam esse eveniet nisi eius. Similique iusto culpa ipsa magnam rerum dignissimos corporis unde pariatur ut quas et beatae non quam cupiditate numquam odit quasi dolorum magni, asperiores adipisci? Voluptatem quam aspernatur numquam totam asperiores consectetur nisi est assumenda placeat et iste unde consequatur amet, deleniti expedita quaerat sunt voluptate voluptatibus repellat cupiditate excepturi aut. Laboriosam quidem odit officia distinctio sapiente eveniet nulla adipisci quo veritatis?</p>
+    <main class="main col-lg-9 col-lg-push-3 col-md-8 col-md-push-4">
+
+      <section class="site-search panel panel-info hidden-lg hidden-md">
+        <div class="panel-heading">
+          <h3 class="panel-title">Поиск</h3>
+        </div>
+        <div class="panel-body">
+          <form action="search">
+            <div class="input-group input-group-lg">
+              <input class="form-control" type="search" placeholder="Поиск по сайту">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+            </div>
+            </span>
+          </form>
+        </div>
+      </section>
+      
+      <section class="user-login panel panel-info hidden-lg hidden-md">
+        <div class="panel-heading">
+          <h3 class="panel-title">Пользователь</h3>
+        </div>
+        <div class="panel-body">
+          <div>
+            <ul class="user-login__tabs nav nav-tabs" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#user-login-main" aria-controls="user-login-main" role="tab" data-toggle="tab">
+                  <span class="glyphicon glyphicon-log-in" title="Вход"></span>
+                </a></li>
+              <li role="presentation">
+                <a href="#user-registration-main" aria-controls="user-registration-main" role="tab" data-toggle="tab">
+                  <span class="glyphicon glyphicon-user" title="Регистрация"></span>
+                </a></li>
+            </ul>
+            <div class="user-login__content tab-content">
+              <div role="tabpanel" class="tab-pane active" id="user-login-main">
+                <form action="login">
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="Логин">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="password" placeholder="Пароль">
+                  </div>
+                    <button class="btn btn-default btn-lg btn-block" type="submit">Вход</button>
+                </form>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="user-registration-main">
+                <form action="registration">
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="Логин">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="password" placeholder="Пароль">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="email" placeholder="Почта">
+                  </div>
+                    <button class="btn btn-default btn-lg btn-block" type="submit">Регистрация</button>
+                </form>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section class="new-films">
+      <h1 class="new-films__title">Новые фильмы</h1>
+      <div class="new-films-row row">
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+        <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+          <div class="new-films-item__thumbnail thumbnail">
+            <a href="#">
+              <img class="new-films-item__image" src="assets/img/films/1266931.jpg" alt="Стражи галактики">
+              <div class="new-films-item__caption caption">
+                <h3 class="new-films-item__title">Стражи галактики</h3>
+              </div>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="top-week">
+      <h2>Топ за неделю</h2>
+    </section>
+    <section class="film-news">
+      <h2>Новости кино</h2>
+    </section>
     </main>
 
     <aside class="left-sidebar col-lg-3 col-lg-pull-9 col-md-4 col-md-pull-8">
       
-      <div class="vertical-slide panel panel-info">
+      <div class="vertical-slide panel panel-info hidden-sm hidden-xs">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           
           <ol class="carousel-indicators">
@@ -102,7 +297,7 @@
         </div>
       </div>
       
-      <div class="site-search panel panel-info">
+      <div class="site-search panel panel-info hidden-xs hidden-sm">
         <div class="panel-heading">Поиск</div>
         <div class="panel-body">
           <form action="search">
@@ -116,7 +311,7 @@
         </div>
       </div>
       
-      <div class="user-login panel panel-info">
+      <div class="user-login panel panel-info hidden-xs hidden-sm">
         <div class="panel-heading">Пользователь
         </div>
         <div class="panel-body">

@@ -44,16 +44,16 @@
   background-color: #ebebeb;
 }
 
+.panel-body {
+  border: 1px solid #dddddd;
+  border-radius: 0 0 4px 4px;
+}
+
 .panel-info > .panel-heading {
   color: #fff;
   background-color: #df8a13;
   font-size: 1.2rem;
   letter-spacing: 0.1em;
-}
-
-.panel-body {
-  border: 1px solid #dddddd;
-  border-radius: 0 0 4px 4px;
 }
 
 .input-lg,
@@ -84,16 +84,17 @@ h2 {
   font-family: "PT Serif", serif;
 }
 
-h3 {
-  font-family: "PT Serif", serif;
-}
-
 a {
   color: #165690;
 }
 
 ahover, afocus {
   text-decoration: none;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
 }
 
 .header-logo {
@@ -116,6 +117,42 @@ ahover, afocus {
   display: block;
   letter-spacing: .2em;
   color: #fff;
+}
+
+.main .site-search {
+  margin-bottom: 45px;
+}
+
+.main .user-login {
+  margin-bottom: 60px;
+}
+
+.main .new-films-row {
+  margin-right: -7.5px;
+  margin-left: -7.5px;
+  margin-bottom: -15px;
+}
+
+.main .new-films-item {
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+  margin-bottom: 15px;
+}
+
+.main .new-films-item__thumbnail {
+  margin-bottom: 0;
+}
+
+.main .new-films-item__title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
 }
 
 .left-sidebar .panel:last-of-type {
@@ -257,6 +294,14 @@ ahover, afocus {
 }
 
 @media (min-width: 576px) {
+  h1 {
+    margin: -7.5px 0 45px;
+    font-size: 3rem;
+  }
+  h2 {
+    margin: 3.75px 0 45px;
+    font-size: 2.5rem;
+  }
   .header-logo__title {
     margin-right: -15px;
     letter-spacing: 0.33em;
@@ -289,6 +334,14 @@ ahover, afocus {
 }
 
 @media (max-width: 575.8px) {
+  h1 {
+    margin: 0 0 30px;
+    font-size: 2rem;
+  }
+  h2 {
+    margin: 0 0 30px;
+    font-size: 2rem;
+  }
   .header-logo__title {
     margin-right: -7.5px;
     letter-spacing: 0.2em;
